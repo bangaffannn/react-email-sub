@@ -1,4 +1,5 @@
 import Content from "./components/Content";
+import Image from './assets/images/image.jpg';
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
           <div className="flex flex-col md:flex-row rounded-l-xl">
             {/* <!-- Image --> */}
             <img
-              src="../public/images/image.jpg"
-              alt=""
+              src={Image}
+              alt="subscription"
               className="object-fit rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200"
             />
             <Content />
